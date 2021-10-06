@@ -1,0 +1,15 @@
+CREATE TABLE alien (
+    id numeric NOT NULL,
+    name varchar(100),
+    points int,
+    PRIMARY KEY (id)
+)
+
+INSERT INTO alien 
+VALUES ("cesar", 100, 1)
+
+INSERT INTO alien 
+VALUES ("andres", 90, 2)
+
+INSERT INTO alien 
+VALUES ("anyela", 70, 3)
