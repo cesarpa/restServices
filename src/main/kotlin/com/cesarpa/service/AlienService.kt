@@ -55,7 +55,6 @@ class AlienService {
     @DELETE
     @Path("delete/{id}")
     @Produces(MediaType.APPLICATION_JSON)
-    @Consumes(MediaType.APPLICATION_JSON)
     fun deleteAlien(@PathParam("id") id: Int) {
         if (id != null) {
             repo.deleteAlien(id)
